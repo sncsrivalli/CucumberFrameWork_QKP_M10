@@ -20,6 +20,8 @@ public class CategoryPageSteps {
 	
 	@And("^I create a new category with (.*)$")
 	public void i_create_a_new_category_with_name(String name) {
+		category = testContextSetUp.pageObject.getCategoryPage();
+		category.clickNewButton();
 		addCategory = testContextSetUp.pageObject.getAddNewCategoryPage();
 		categoryName = name;
 		addCategory.setNameTF(categoryName);

@@ -1,8 +1,10 @@
 Feature: Course
 
-  Scenario: Add Course
+  Background: 
     Given I enter skillrary login page
     And I login to the skillrary
+
+  Scenario: Add Course
     When I click on Courses tab and choose Course List
     And I create a new course
       | UiPath                                                      |
