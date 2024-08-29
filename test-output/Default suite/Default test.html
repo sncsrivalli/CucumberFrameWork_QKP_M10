@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 28 11:44:10 IST 2024</td>
+<td>Started on:</td><td>Thu Aug 29 10:56:38 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>56 seconds (56278 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41061 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunnerClasses.SkillraryTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.SkillraryTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add User", "User"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;SkillRary Admin&apos;]&quot;}
+<td title='testRunnerClasses.FailedTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.FailedTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Course", "Course"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;alert-success&apos;)]&quot;}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90958aa24f138bd0bb160219aa1b42bd, findElement {using=xpath, value=//span[text()=&apos;SkillRary Admin&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60774/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90958aa24f138bd0bb160219aa1b42bd
+Command: [2e0a6a37db665ee10e0a974e76df1f86, findElement {using=xpath, value=//div[contains(@class,&apos;alert-success&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55959/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e0a6a37db665ee10e0a974e76df1f86
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -102,20 +102,20 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at objectRepository.HomePage.signoutOfApp(HomePage.java:59)
-	at stepDefinitions.HomePageSteps.i_logout_of_skillrary(HomePageSteps.java:37)
-	at ✽.I logout of skillrary(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/./src/test/resources/FeatureFiles/UserFeature.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace168659423", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace168659423'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;SkillRary Admin&apos;]&quot;}
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at objectRepository.CourseListPage.getSuccessAlert(CourseListPage.java:53)
+	at stepDefinitions.CoursePageSteps.new_course_should_be_added_to_the_course_list(CoursePageSteps.java:41)
+	at ✽.New course should be added to the course list(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/src/test/resources/FeatureFiles/CourseFeature.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace827654313", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace827654313'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;alert-success&apos;)]&quot;}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90958aa24f138bd0bb160219aa1b42bd, findElement {using=xpath, value=//span[text()=&apos;SkillRary Admin&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60774/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90958aa24f138bd0bb160219aa1b42bd
+Command: [2e0a6a37db665ee10e0a974e76df1f86, findElement {using=xpath, value=//div[contains(@class,&apos;alert-success&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55959/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e0a6a37db665ee10e0a974e76df1f86
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -132,13 +132,13 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at objectRepository.HomePage.signoutOfApp(HomePage.java:59)
-	at stepDefinitions.HomePageSteps.i_logout_of_skillrary(HomePageSteps.java:37)
-	at ✽.I logout of skillrary(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/./src/test/resources/FeatureFiles/UserFeature.feature:13)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at objectRepository.CourseListPage.getSuccessAlert(CourseListPage.java:53)
+	at stepDefinitions.CoursePageSteps.new_course_should_be_added_to_the_course_list(CoursePageSteps.java:41)
+	at ✽.New course should be added to the course list(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/src/test/resources/FeatureFiles/CourseFeature.feature:16)
 </pre></div></td>
-<td>55</td>
-<td>testRunnerClasses.SkillraryTests@20140db9</td></tr>
+<td>39</td>
+<td>testRunnerClasses.FailedTests@2af004b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -149,20 +149,15 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunnerClasses.SkillraryTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.SkillraryTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Category", "Category"</td>
+<td title='testRunnerClasses.FailedTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.FailedTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Category", "Category"</td>
 <td></td>
-<td>47</td>
-<td>testRunnerClasses.SkillraryTests@20140db9</td></tr>
+<td>30</td>
+<td>testRunnerClasses.FailedTests@2af004b</td></tr>
 <tr>
-<td title='testRunnerClasses.SkillraryTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.SkillraryTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Category", "Category"</td>
+<td title='testRunnerClasses.FailedTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.FailedTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Category", "Category"</td>
 <td></td>
-<td>46</td>
-<td>testRunnerClasses.SkillraryTests@20140db9</td></tr>
-<tr>
-<td title='testRunnerClasses.SkillraryTests.runScenario()'><b>runScenario</b><br>Test class: testRunnerClasses.SkillraryTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Course", "Course"</td>
-<td></td>
-<td>47</td>
-<td>testRunnerClasses.SkillraryTests@20140db9</td></tr>
+<td>30</td>
+<td>testRunnerClasses.FailedTests@2af004b</td></tr>
 </table><p>
 </body>
 </html>

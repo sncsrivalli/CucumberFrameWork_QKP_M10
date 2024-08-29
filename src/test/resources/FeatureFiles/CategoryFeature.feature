@@ -1,3 +1,4 @@
+@category
 Feature: Category
 
   Background: 
@@ -13,6 +14,6 @@ Feature: Category
     And I logout of skillrary
 
     Examples: 
-      | name       |
-      | RPA        |
-      | MERN Stack |
+      | name              |
+      | MEAN Stack        |
+      | Python Full Stack |

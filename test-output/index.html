@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sncsr\AppData\Local\Temp\testng-eclipse--1851628578\testng-customsuite.xml</span>
+                    <span>C:\Users\sncsr\AppData\Local\Temp\testng-eclipse-1102213506\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.SkillraryTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add User&quot;, &quot;User&quot;)">runScenario("Add User", "User")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.FailedTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Course&quot;, &quot;Course&quot;)">runScenario("Add Course", "Course")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -117,17 +117,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.SkillraryTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Category&quot;, &quot;Category&quot;)">runScenario("Add Category", "Category")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.FailedTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Category&quot;, &quot;Category&quot;)">runScenario("Add Category", "Category")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.SkillraryTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Category&quot;, &quot;Category&quot;)">runScenario("Add Category", "Category")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.SkillraryTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Course&quot;, &quot;Course&quot;)">runScenario("Add Course", "Course")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunnerClasses.FailedTests" class="method navigator-link" hash-for-method="runScenario(&quot;Add Category&quot;, &quot;Category&quot;)">runScenario("Add Category", "Category")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -145,24 +140,24 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testRunnerClasses.SkillraryTests</span>
+              <span class="class-name">testRunnerClasses.FailedTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Add User&quot;, &quot;User&quot;)">
-                  </a> <!-- runScenario("Add User", "User") -->
+                  <a name="runScenario(&quot;Add Course&quot;, &quot;Course&quot;)">
+                  </a> <!-- runScenario("Add Course", "Course") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add User","User")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;SkillRary Admin&apos;]&quot;}
+                  <span class="parameters">("Add Course","Course")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;alert-success&apos;)]&quot;}
   (Session info: chrome=128.0.6613.85)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [90958aa24f138bd0bb160219aa1b42bd, findElement {using=xpath, value=//span[text()=&apos;SkillRary Admin&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60774/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90958aa24f138bd0bb160219aa1b42bd
+Command: [2e0a6a37db665ee10e0a974e76df1f86, findElement {using=xpath, value=//div[contains(@class,&apos;alert-success&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55959/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e0a6a37db665ee10e0a974e76df1f86
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -179,10 +174,10 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at objectRepository.HomePage.signoutOfApp(HomePage.java:59)
-	at stepDefinitions.HomePageSteps.i_logout_of_skillrary(HomePageSteps.java:37)
-	at ✽.I logout of skillrary(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/./src/test/resources/FeatureFiles/UserFeature.feature:13)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at objectRepository.CourseListPage.getSuccessAlert(CourseListPage.java:53)
+	at stepDefinitions.CoursePageSteps.new_course_should_be_added_to_the_course_list(CoursePageSteps.java:41)
+	at ✽.New course should be added to the course list(file:///C:/Users/sncsr/eclipse-workspace/CucumberSkillraryDemoApp_M10/src/test/resources/FeatureFiles/CourseFeature.feature:16)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -194,7 +189,7 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testRunnerClasses.SkillraryTests</span>
+              <span class="class-name">testRunnerClasses.FailedTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -217,22 +212,12 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Add Course&quot;, &quot;Course&quot;)">
-                  </a> <!-- runScenario("Add Course", "Course") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add Course","Course")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sncsr\AppData\Local\Temp\testng-eclipse--1851628578\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sncsr\AppData\Local\Temp\testng-eclipse-1102213506\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -241,7 +226,7 @@ Session ID: 90958aa24f138bd0bb160219aa1b42bd
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testRunnerClasses.SkillraryTests&quot;/&gt;
+      &lt;class name=&quot;testRunnerClasses.FailedTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -289,28 +274,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'testRunnerClasses.SkillraryTests')
-data.setCell(0, 3, 55418);
+data.setCell(0, 2, 'testRunnerClasses.FailedTests')
+data.setCell(0, 3, 39578);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'testRunnerClasses.SkillraryTests')
-data.setCell(1, 3, 47211);
+data.setCell(1, 2, 'testRunnerClasses.FailedTests')
+data.setCell(1, 3, 30702);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'testRunnerClasses.SkillraryTests')
-data.setCell(2, 3, 47043);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'testRunnerClasses.SkillraryTests')
-data.setCell(3, 3, 46734);
+data.setCell(2, 2, 'testRunnerClasses.FailedTests')
+data.setCell(2, 3, 30702);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -336,32 +317,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testRunnerClasses.SkillraryTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testRunnerClasses.FailedTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@11963225)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@249e0271)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">runScenario("Add Category", "Category")</span>
+                <span class="method-start">815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Add User", "User")</span>
-                <span class="method-start">659 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Add Category", "Category")</span>
-                <span class="method-start">659 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Add Category", "Category")</span>
-                <span class="method-start">659 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">runScenario("Add Course", "Course")</span>
-                <span class="method-start">659 ms</span>
+                <span class="method-start">815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add Category", "Category")</span>
+                <span class="method-start">815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">56098 ms</span>
+                <span class="method-start">40406 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,3 +1,4 @@
+@course
 Feature: Course
 
   Background: 
@@ -7,7 +8,7 @@ Feature: Course
   Scenario: Add Course
     When I click on Courses tab and choose Course List
     And I create a new course
-      | UiPath                                                      |
+      | UI                                                          |
       | Testing                                                     |
       |                                                        1500 |
       | C:\\Users\\sncsr\\Downloads\\Screenshot_20220810-174027.png |
